@@ -1,0 +1,51 @@
+Sistemas:
+  mcMMO: true
+
+Vara:
+  Quebrar: false
+
+Mensagens:
+  Inventario:
+    sem-espaco: '&c&lOPA! &cSeu inventário está cheio, esvazie-o ou venda seus itens.'
+
+# ATENÇÃO: Coloque os itens com ordem de chance menor para maior.
+# Exemplo: item 0 -> 1%, item 1 -> 10%, item 2 -> 90%
+Itens:
+  0:
+    id: 310#0
+    chance: 1
+    quantidade: 1
+    nome: '&bArmadura Perdida'
+    descricao:
+      - ''
+      - '&7Esta armadura foi perdida no mar há'
+      - '&7muito tempo, seu valor é inimaginável.'
+      - ''
+    encantamentos:
+      - 'WATER_WORKER;1'
+    xp: 2
+    mcmmo-xp: 400
+  1:
+    id: 349#2
+    chance: 30
+    quantidade: 1
+    nome: '&6Peixe Palhaço'
+    descricao:
+      - ''
+      - '&7Este peixe foi capturado em pesca.'
+      - ''
+    encantamentos: [ ]
+    xp: 2
+    mcmmo-xp: 350
+  2:
+    id: 349#0
+    chance: 80
+    quantidade: 1
+    nome: '&bPeixe Cru'
+    descricao:
+      - ''
+      - '&7Este peixe foi capturado em pesca.'
+      - ''
+    encantamentos: [ ]
+    xp: 1
+    mcmmo-xp: 250
