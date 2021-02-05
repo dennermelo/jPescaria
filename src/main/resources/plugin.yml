@@ -1,0 +1,4 @@
+name: jPescaria
+main: com.github.dennermelo.jpescaria.Main
+version: 1.0-SNAPSHOT
+author: String

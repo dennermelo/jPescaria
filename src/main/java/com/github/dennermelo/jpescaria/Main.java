@@ -21,6 +21,9 @@ public class Main extends JavaPlugin {
 
         plugin = getPlugin(Main.class);
 
+        /* Criação/Carregamento da Config */
+        saveDefaultConfig();
+
         /* Carregamento/Criação de itens */
         itemManager = new ItemManager();
         itemManager.loadItems();

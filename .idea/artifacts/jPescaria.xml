@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jPescaria">
+    <output-path>$USER_HOME$/Downloads/Servidor/plugins</output-path>
+    <root id="archive" name="jPescaria.jar">
+      <element id="module-output" name="jPescaria" />
+    </root>
+  </artifact>
+</component>
